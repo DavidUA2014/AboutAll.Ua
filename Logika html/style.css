@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(7, 120, 176);
+}
+
+header {
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    float:;
+    position: fixed;
+    opacity: 0.8;
+}
+img{
+    width: 145px;
+    height: 150px ;
+    border-radius:  20px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+ text-align: right;
+}
+
+.nav-link{
+    font-size: 24px;
+    color: rgba(2, 0, 132, 0.674);
+}
+.nav-link:hover{
+ color: brown;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+    float: right;
+}
+
+p {
+    font-size: 24px;
+    color: rgba(78, 8, 149, 0.693);
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color:rgb(2, 137, 112);
+    padding:20px; 
+    width: 400px;
+    margin: 20px;
+    color: black;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(199, 183, 0);
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: lightseagreen;
+    padding: ;
+    display: flex;
+    border-radius: 8px;
+}
+
+footer a {
+    margin-right: 25px;
+}
+
+footer p {
+    font-size: 24px;
+}
